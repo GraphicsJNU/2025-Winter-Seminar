@@ -1,0 +1,33 @@
+# === Python bytecode and cache ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# === Virtual environment ===
+.venv/
+env/
+venv/
+
+# === Jupyter and notebooks ===
+.ipynb_checkpoints/
+
+# === Data and model files ===
+data/
+*.pth
+*.pt
+best_model.pth
+best_model_seed_*.pth
+debug_transformed_input.png
+
+# === TensorBoard logs ===
+runs/
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Logs ===
+*.log
